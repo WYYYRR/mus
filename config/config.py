@@ -17,11 +17,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", "14688819"))
-API_HASH = getenv("API_HASH", "5f1643d1c49e6ef0732394c8c2016232")
+API_ID = int(getenv("API_ID", "12082238"))
+API_HASH = getenv("API_HASH", "ca919cabc96d3b001cd12d7d09970e30")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "5723229922:AAH-SoqcHgIXu-39ygwOkj8dBpKxzf5ExIE")
+BOT_TOKEN = getenv("BOT_TOKEN", "2075679625:AAGOWNwnoJbAPdORr5FP9Bq7mNkutqYgvjc")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://MusicTxn:MusicTxn@cluster0.iiws8am.mongodb.net/?retryWrites=true&w=majority")
@@ -37,14 +37,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001862929482"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001711876357"))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "MusicTxnBot")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Music EvaN Team")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5244755240").split())
+    map(int, getenv("OWNER_ID", "5683932668").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -59,31 +59,31 @@ UPSTREAM_REPO = getenv(
     "https://github.com/nn9nn/MusicTxnBot",
 )
 BOT_USERNAME = getenv(
-    "BOT_USERNAME", "MusicTxnBot"
+    "BOT_USERNAME", "Music EvaN Team"
 )  # معرف بوتك بدون @
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "CX2XBOT")
 
 # GIT TOKEN ( if your edited repo is private)
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 CHANNEL_SUDO = getenv(
-    "CHANNEL_SUDO", "N1111V"
+    "CHANNEL_SUDO", "IAA1A"
 )  # معرف قناتك بدون @
 YAFA_NAME = getenv(
-    "YAFA_NAME", "ذگـࢪئ"
+    "YAFA_NAME", "‹ 𝖳𝖾𝖠𝗆 𝖣𝖾𝖿𝗈 ›"
 )  # اسم قناتك
 YAFA_CHANNEL = getenv(
-   " YAFA_CHANNEL", "https://t.me/N1111V"
+   " YAFA_CHANNEL", "https://t.me/IAA1A"
 )  # رابط قناتك
 SUDO_USER =getenv(
-    "SUDO_USER", "https://t.me/S_Y_W"
+    "SUDO_USER", "https://t.me/D_SD9"
 )  # رابط حسابك
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/N1111V"
+    "SUPPORT_CHANNEL", "https://t.me/IAA1A"
 )  # رابط قناتك
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/coaboba"
+    "SUPPORT_GROUP", "https://t.me/TT_M9M"
 )  # رابط كروبك
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
@@ -157,12 +157,7 @@ STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
 
 
-#  __     ___    _ _  ___  _______   __  __ _    _  _____ _____ _____   ____   ____ _______
-#  \ \   / / |  | | |/ / |/ /_   _| |  \/  | |  | |/ ____|_   _/ ____| |  _ \ / __ \__   __|
-#   \ \_/ /| |  | | ' /| ' /  | |   | \  / | |  | | (___   | || |      | |_) | |  | | | |
-#    \   / | |  | |  < |  <   | |   | |\/| | |  | |\___ \  | || |      |  _ <| |  | | | |
-#     | |  | |__| | . \| . \ _| |_  | |  | | |__| |____) |_| || |____  | |_) | |__| | | |
-#     |_|   \____/|_|\_\_|\_\_____| |_|  |_|\____/|_____/|_____\_____| |____/ \____/  |_|
+#‹ 𝖳𝖾𝖠𝗆 𝖣𝖾𝖿𝗈 ›
 
 
 ### DONT TOUCH or EDIT codes after this line
